@@ -73,7 +73,7 @@ export default function Slide2() {
             <Card className="h-full p-3 bg-black/40 backdrop-blur-sm border-purple-500/30">
               <div className="flex flex-col h-full justify-between space-y-3">
                 <div className="flex items-start">
-                  <Globe className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" />
+                  <Globe className="h-8 w-8 text-primary mr-2 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-base font-semibold mb-1">Profil de l'Entreprise</h3>
                     <p className="text-xs text-gray-300">
@@ -92,7 +92,7 @@ export default function Slide2() {
                   />
                 </div>
                 <div className="flex items-start">
-                  <TrendingUp className="h-5 w-5 text-primary mr-2 mt-1 flex-shrink-0" />
+                  <TrendingUp className="h-8 w-8 text-primary mr-2 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-base font-semibold mb-1">Expertise Reconnue</h3>
                     <p className="text-xs text-gray-300">
@@ -118,7 +118,7 @@ export default function Slide2() {
                   }}
                 >
                   <motion.div
-                    className={`bg-gradient-to-br ${service.color} rounded-full p-2 mb-2`}
+                    className={`bg-gradient-to-br ${service.color} rounded-full p-3 mb-2`}
                     animate={{
                       rotate: [0, 10, 0, -10, 0],
                     }}
@@ -129,7 +129,7 @@ export default function Slide2() {
                       ease: "easeInOut",
                     }}
                   >
-                    <Icon className="h-5 w-5 text-white" />
+                    <Icon className="h-8 w-8 text-white" />
                   </motion.div>
                   <p className="text-center text-xs font-medium">{service.name}</p>
                 </motion.div>

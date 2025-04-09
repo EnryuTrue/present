@@ -59,7 +59,7 @@ export default function Slide0() {
               <div className="flex items-start">
                 <BookOpen className="h-6 w-6 text-primary mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Structure du Mémoire</h3>
+                  <h3 className="text-lg font-semibold mb-2">Structure</h3>
                   <ul className="list-disc pl-5 text-gray-300 space-y-1 text-sm">
                     <li>
                       <span className="font-medium">Partie théorique :</span> Présentation de l'entreprise, des
