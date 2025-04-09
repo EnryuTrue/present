@@ -21,36 +21,36 @@ export default function ObjectivesSlide() {
 
   const objectives = [
     {
-      title: "Make it Digital",
-      description: "Transform analog processes into seamless digital experiences",
+      title: "Numériser",
+      description: "Transformer les processus analogiques en expériences numériques fluides",
       icon: Laptop,
       color: "from-blue-500 to-blue-700",
     },
     {
-      title: "Make it Secure",
-      description: "Protect data with enterprise-grade security protocols",
+      title: "Sécuriser",
+      description: "Protéger les données avec des protocoles de sécurité de niveau entreprise",
       icon: Shield,
       color: "from-red-500 to-red-700",
     },
     {
-      title: "Make Discovery Easy",
-      description: "Intuitive interfaces that simplify finding what matters",
+      title: "Faciliter la Découverte",
+      description: "Interfaces intuitives qui simplifient la recherche de l'essentiel",
       icon: Search,
       color: "from-amber-500 to-amber-700",
     },
     {
-      title: "Drive Growth",
-      description: "Empower users with tools that accelerate success",
+      title: "Stimuler la Croissance",
+      description: "Donner aux utilisateurs les outils pour accélérer leur réussite",
       icon: TrendingUp,
       color: "from-green-500 to-green-700",
     },
   ]
 
   const metrics = [
-    { value: "50+", label: "Organizers", icon: BarChart3 },
-    { value: "200+", label: "Events/Month", icon: BarChart3 },
-    { value: "50K+", label: "Users", icon: BarChart3 },
-    { value: "99.9%", label: "Security", icon: BarChart3 },
+    { value: "50+", label: "Organisateurs", icon: BarChart3 },
+    { value: "200+", label: "Événements/Mois", icon: BarChart3 },
+    { value: "50K+", label: "Utilisateurs", icon: BarChart3 },
+    { value: "99.9%", label: "Sécurité", icon: BarChart3 },
   ]
 
   return (
@@ -68,7 +68,7 @@ export default function ObjectivesSlide() {
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
             variants={itemVariants}
           >
-            Our Objectives
+            Nos Objectifs
           </motion.h1>
         </motion.div>
 
