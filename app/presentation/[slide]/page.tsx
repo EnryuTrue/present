@@ -17,7 +17,10 @@ import Slide9 from "@/components/slides/slide-9"
 import Slide10 from "@/components/slides/slide-10"
 import Slide11 from "@/components/slides/slide-11"
 import Slide12 from "@/components/slides/slide-12"
-const TOTAL_SLIDES = 13
+import Slide13 from "@/components/slides/slide-13"
+import Slide14 from "@/components/slides/slide-14"
+import Slide15 from "@/components/slides/slide-15"
+const TOTAL_SLIDES = 16
 
 export default function SlidePage({ params }: { params: { slide: string } }) {
   const router = useRouter()
@@ -48,17 +51,23 @@ export default function SlidePage({ params }: { params: { slide: string } }) {
       case 7:
         return <Slide5 />
       case 8:
-        return <Slide6 />
+        return <Slide14 />
       case 9:
         return <Slide7 />
       case 10:
-        return <Slide8 />
+        return <Slide6 />
       case 11:
-        return <Slide9 />
+        return <Slide8 />
       case 12:
-        return <Slide10 />
+        return <Slide15 />
       case 13:
+        return <Slide9 />
+      case 14:
+        return <Slide10 />
+      case 15:
         return <Slide11 />
+      case 16:
+        return <Slide13 />
       default:
         return <Slide0 />
     }

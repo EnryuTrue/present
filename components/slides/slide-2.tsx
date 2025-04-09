@@ -64,7 +64,7 @@ export default function Slide2() {
     className="rounded-full object-contain" // Added object-contain for better image scaling
   />
   <motion.h1 className="slide-title gradient-text text-2xl font-bold leading-none mt-7">
-    Partenaire Entreprise
+   Entreprise
   </motion.h1>
 </motion.div>
 

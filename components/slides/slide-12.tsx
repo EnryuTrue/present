@@ -40,8 +40,8 @@ export default function Slide12() {
       color: "from-purple-500 to-purple-700",
       slides: [
         { number: 1, title: "Introduction" },
-        { number: 2, title: "Présentation de Ticketster" },
-        { number: 3, title: "Services" },
+        { number: 2, title: "Le Problème & La Solution" },
+        { number: 3, title: "Entreprise" },
         { number: 4, title: "Objectifs" },
       ],
     },
